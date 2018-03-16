@@ -33,7 +33,7 @@ export class ReCaptchaService {
             let script = document.createElement('script');
             script.innerHTML = '';
             script.src = 'https://www.google.com/recaptcha/api.js?onload=reCaptchaOnloadCallback&render=explicit' +
-                (language ? '&hl=' + language : '');
+                (language ? '&hl=' + language : '') + '&rd=' + JSON.stringify(new Date());
             script.async = true;
             script.defer = true;
             doc.appendChild(script);
