@@ -6,6 +6,3 @@ factories
 # misc
 *.log
 .idea
-*.d.ts
-*.js
-*.metadata.json
