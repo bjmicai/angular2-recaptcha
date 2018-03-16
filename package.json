@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xmaestro/angular2-recaptcha.git"
+    "url": "git+https://github.com/ohofanz/angular2-recaptcha.git"
   },
   "keywords": [
     "angular2",
@@ -19,7 +19,7 @@
   "author": "xmaestro",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xmaestro/angular2-recaptcha/issues"
+    "url": "https://github.com/ohofanz/angular2-recaptcha/issues"
   },
   "devDependencies": {
     "@angular/common": "4.2.2",
@@ -34,5 +34,5 @@
     "zone.js": "0.8.12",
     "typescript": "2.3.4"
   },
-  "homepage": "https://github.com/xmaestro/angular2-recaptcha#readme"
+  "homepage": "https://github.com/ohofanz/angular2-recaptcha#readme"
 }
